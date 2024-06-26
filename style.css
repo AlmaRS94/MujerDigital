@@ -1,0 +1,147 @@
+body {
+    overflow-x: hidden;
+}
+
+/* HEADER */
+.navbar {
+    background-color: #ffffff;
+}
+.navbar .navbar-brand {
+    color: #817382;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #405bf5;
+}
+.navbar .navbar-text {
+    color: #817382;
+}
+.navbar .navbar-text a {
+    color: #405bf5;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #405bf5;
+}
+.navbar .navbar-nav .nav-link {
+    color: #817382;
+    border-radius: 0.25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #405bf5;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #405bf5;
+    background-color: #ffffff;
+}
+.navbar .navbar-toggler {
+    border-color: #ffffff;
+}
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+    background-color: #ffffff;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+    color: #817382;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #817382;
+}
+.navbar .navbar-link {
+    color: #817382;
+}
+.navbar .navbar-link:hover {
+    color: #405bf5;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #817382;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #405bf5;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #405bf5;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 200px;
+}
+
+.dropdown > .dropdown-item:hover {
+    background: rgb(45, 50, 51);
+    color: white;
+}
+
+/* Estilo del texto del menú */
+.textomenu {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #405BF5;
+    margin-left: 70px;
+}
+
+.link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30 px;
+    line-height: 20px;
+    color: #405BF5;
+    
+}
+
+/* Acomodar el NAV */
+.navbar-nav {
+    margin: auto;
+}
+
+/* Añadir espacio entre elementos del menu */
+.navbar-nav > li {
+    padding-right: 30px;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+}
+nav ul {
+    margin-top: 0;
+}
+
+
+/* Título del header  */
+#tituloH1 {
+    color: #405BF5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#tituloH1.contacto {
+    color: #405BF5;
+    margin-top: -15px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 40px;
+    position: relative;
+
+}

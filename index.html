@@ -1,0 +1,135 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  
+  <head>
+    <!--<meta charset="UTF-8" versión de conjunto de caracteres soportados -->
+      <meta charset="UTF-8">
+      <!-- http- equiv es para soportar el navegador -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- meta name="viewport", esta relacionada a responsive: sirve para optimizar los sitios para móviles -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- title será el nombre de la ventana -->
+      <title>Developer ARS</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">>
+
+  
+      <!-- CSS del bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  
+      <!-- El estilo del menu, fondo blanco, color de letra activa y normal -->
+      <link rel="stylesheet" href="style.css">
+  
+      <!-- Tipografía Raleway para nav bar -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  
+  </head>
+  
+  <body>
+
+<!-- Carrusel información -->
+
+     <!--nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white textomenu">
+    <img class="navbar-brand logo" src="logo.png" />
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+
+        <!-- Liga a página de Inicio -->
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <!-- Liga a página de Nosotros -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">About me</a>
+        </li>
+
+        <!-- Liga a página de proyectos con dropdown(menú desplegable)-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <!-- Para generar otro enlace en el menú crea otro contenedor div. -->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Mujer Digital</a>
+          </div>
+        </li>
+
+        <!-- Liga a página de contacto -->
+        <li class="nav-item">
+          <a class="nav-link" href="acerca.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav> 
+  <!--nav bar-->
+    
+  <!--NAVBAR-->
+  <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light bg-white textomenu"></nav>
+  <!--NAVBAR-->
+
+<section id="header" class="text-center">
+    <h1 id="tituloIndex" class="display-3 text-center p-0">¡Hello!</h1>
+    <p id="mensajeIndex" class="lead"> These are the places I’ve left my mark.</p>
+</section>
+
+  <!--Carrousel-->
+  <div class="container">
+    <div class="card-deck">
+      <div class="card" style="max-width:auto;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="tecnolochicas_cover.jpeg" class="d-block w-100" alt="..." style="width: 100%; height: 50vh;">
+            </div>
+            <div class="carousel-item">
+              <img src="BimboNet.jpeg" class="d-block w-100" alt="..." style="width: 100%; height: 50vh;">
+            </div>
+            <div class="carousel-item">
+              <img src="Logo_de_Intercam.svg.png" class="d-block w-100" alt="..." style="width: 100%; height: 50vh;">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  
+      <!--FOOTER-->
+      <footer id="footer"></footer>
+      <!--FOOTER-->
+      
+      <!--Integracion BootSrap-->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+          crossorigin="anonymous"></script>
+
+</body>
+
+</html>
